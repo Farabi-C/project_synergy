@@ -86,9 +86,7 @@ body {
 .animatedimg1 *:before,
 .animatedimg1 *:after {
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
   -webkit-transition: all 0.45s ease;
-  transition: all 0.45s ease;
 }
 
 .animatedimg1 img {
@@ -108,17 +106,14 @@ body {
   background-color: #333;
   opacity: 0.5;
   -webkit-transition: all 0.45s ease;
-  transition: all 0.45s ease;
 }
 
 .animatedimg1:before {
   -webkit-transform: skew(30deg) translateX(80%);
-  transform: skew(30deg) translateX(80%);
 }
 
 .animatedimg1:after {
   -webkit-transform: skew(-30deg) translateX(70%);
-  transform: skew(-30deg) translateX(70%);
 }
 
 .animatedimg1 figcaption {
@@ -147,12 +142,10 @@ body {
 
 .animatedimg1 figcaption:before {
   -webkit-transform: skew(30deg) translateX(100%);
-  transform: skew(30deg) translateX(100%);
 }
 
 .animatedimg1 figcaption:after {
   -webkit-transform: skew(-30deg) translateX(90%);
-  transform: skew(-30deg) translateX(90%);
 }
 
 .animatedimg1 h1,
@@ -193,38 +186,30 @@ body {
 .animatedimg1:hover p,
 .animatedimg1.hover p {
   -webkit-transform: translateY(0);
-  transform: translateY(0);
   opacity: 0.9;
 }
 
 .animatedimg1:hover:before,
 .animatedimg1.hover:before {
   -webkit-transform: skew(30deg) translateX(70%);
-  transform: skew(30deg) translateX(70%);
   -webkit-transition-delay: 0.05s;
-  transition-delay: 0.05s;
 }
 
 .animatedimg1:hover:after,
 .animatedimg1.hover:after {
   -webkit-transform: skew(-30deg) translateX(60%);
-  transform: skew(-30deg) translateX(60%);
 }
 
 .animatedimg1:hover figcaption:before,
 .animatedimg1.hover figcaption:before {
   -webkit-transform: skew(30deg) translateX(90%);
-  transform: skew(30deg) translateX(90%);
   -webkit-transition-delay: 0.1s;
-  transition-delay: 0.1s;
 }
 
 .animatedimg1:hover figcaption:after,
 .animatedimg1.hover figcaption:after {
   -webkit-transform: skew(-30deg) translateX(80%);
-  transform: skew(-30deg) translateX(80%);
   -webkit-transition-delay: 0.1s;
-  transition-delay: 0.1s;
 }
 /* After the image */
 
@@ -235,6 +220,7 @@ body {
   padding-top: 40px;
   max-width: 90%;
   color: white;
+  line-height: 1.8em;
 }
 
 #effort{
@@ -260,9 +246,7 @@ body {
 .animatedimg2 *:before,
 .animatedimg2 *:after {
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
   -webkit-transition: all 0.45s ease;
-  transition: all 0.45s ease;
 }
 
 .animatedimg2:before,
@@ -274,33 +258,27 @@ body {
   right: 0;
   content: '';
   background-color: #04AA6D;
-  opacity: 0.4;
+  opacity: 0.35;
   -webkit-transition: all 0.45s ease;
-  transition: all 0.45s ease;
 }
 
 .animatedimg2:before {
-  -webkit-transform: skew(40deg) translateX(80%);
-  transform: skew(40deg) translateX(80%);
+  -webkit-transform: skew(27deg) translateX(-89%);
 }
 
 .animatedimg2:after {
-  -webkit-transform: skew(-35deg) translateX(70%);
-  transform: skew(-35deg) translateX(70%);
+  -webkit-transform: skew(-31deg) translateX(-89%);
 }
 
 .animatedimg2:hover:before,
 .animatedimg2.hover:before {
   -webkit-transform: skew(30deg) translateX(70%);
-  transform: skew(30deg) translateX(70%);
   -webkit-transition-delay: 0.05s;
-  transition-delay: 0.05s;
 }
 
 .animatedimg2:hover:after,
 .animatedimg2.hover:after {
   -webkit-transform: skew(-30deg) translateX(60%);
-  transform: skew(-30deg) translateX(60%);
 }
 
 
