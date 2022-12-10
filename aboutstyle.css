@@ -192,7 +192,7 @@ body {
 
 
 .col img{
-  opacity: 0.7;
+  opacity: 0.8;
 }
 
 .row:hover img{
@@ -200,14 +200,13 @@ body {
 }
 
 #with_maiya{
-  padding: 8%;
+  padding: 9%;
   text-align:left;
   font-size: 1.12em;
-  letter-spacing: 0.2em;
-  line-height: 2.5em;
+  letter-spacing: 0.24em;
+  line-height: 2.7em;
   color: white;
   position: relative;
-  opacity: 0.8;
   background-color: #04AA6D;
   min-height: 150px;
 }
@@ -279,7 +278,6 @@ body {
   line-height: 3.0em;
   letter-spacing: 0.06em;
   font-size: 1.2em;
-  opacity: 0.8;
   position: relative;
 }
 #waste:hover{
